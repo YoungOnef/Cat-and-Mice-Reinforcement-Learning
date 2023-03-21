@@ -675,12 +675,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 805815184901912973, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: targetPrefab
+      value: 
+      objectReference: {fileID: 7516859427601003082, guid: 07a7aa37605a73b4f9cd285029218633, type: 3}
+    - target: {fileID: 805815184901912973, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
       propertyPath: environmentTransform
       value: 
       objectReference: {fileID: 5092332990206426620}
+    - target: {fileID: 805815184901912974, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 2f05cd20884c2c948886a2e735ea18c7, type: 3}
+    - target: {fileID: 805815184901912974, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: m_BehaviorType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 805815184901913011, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
       propertyPath: m_Name
       value: Agent
+      objectReference: {fileID: 0}
+    - target: {fileID: 805815184901913011, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: m_TagString
+      value: Agent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213470537326969270, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: m_Constraints
+      value: 116
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}

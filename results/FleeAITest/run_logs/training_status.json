@@ -1,0 +1,29 @@
+{
+    "FeefromAgent": {
+        "checkpoints": [
+            {
+                "steps": 128,
+                "file_path": "results\\FleeAITest\\FeefromAgent\\FeefromAgent-128.onnx",
+                "reward": null,
+                "creation_time": 1679401472.9509304,
+                "auxillary_file_paths": [
+                    "results\\FleeAITest\\FeefromAgent\\FeefromAgent-128.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 128,
+            "file_path": "results\\FleeAITest\\FeefromAgent.onnx",
+            "reward": null,
+            "creation_time": 1679401472.9509304,
+            "auxillary_file_paths": [
+                "results\\FleeAITest\\FeefromAgent\\FeefromAgent-128.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu116"
+    }
+}

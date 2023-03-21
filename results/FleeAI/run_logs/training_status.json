@@ -1,0 +1,29 @@
+{
+    "FleefromAgent": {
+        "checkpoints": [
+            {
+                "steps": 38652,
+                "file_path": "results\\FleeAI\\FleefromAgent\\FleefromAgent-38652.onnx",
+                "reward": 2.619625062710059,
+                "creation_time": 1679407298.6487393,
+                "auxillary_file_paths": [
+                    "results\\FleeAI\\FleefromAgent\\FleefromAgent-38652.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 38652,
+            "file_path": "results\\FleeAI\\FleefromAgent.onnx",
+            "reward": 2.619625062710059,
+            "creation_time": 1679407298.6487393,
+            "auxillary_file_paths": [
+                "results\\FleeAI\\FleefromAgent\\FleefromAgent-38652.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu116"
+    }
+}

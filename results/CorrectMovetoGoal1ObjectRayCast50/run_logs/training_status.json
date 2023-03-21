@@ -1,0 +1,65 @@
+{
+    "MovetoGoal": {
+        "checkpoints": [
+            {
+                "steps": 499964,
+                "file_path": "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-499964.onnx",
+                "reward": 1.6725223687157702,
+                "creation_time": 1679088184.6712396,
+                "auxillary_file_paths": [
+                    "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-499964.pt"
+                ]
+            },
+            {
+                "steps": 999977,
+                "file_path": "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-999977.onnx",
+                "reward": 1.8629999160766602,
+                "creation_time": 1679088899.392802,
+                "auxillary_file_paths": [
+                    "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-999977.pt"
+                ]
+            },
+            {
+                "steps": 1499987,
+                "file_path": "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-1499987.onnx",
+                "reward": 1.8803636160763828,
+                "creation_time": 1679089623.0294204,
+                "auxillary_file_paths": [
+                    "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-1499987.pt"
+                ]
+            },
+            {
+                "steps": 1999995,
+                "file_path": "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-1999995.onnx",
+                "reward": 1.8627500087022781,
+                "creation_time": 1679090358.8602188,
+                "auxillary_file_paths": [
+                    "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-1999995.pt"
+                ]
+            },
+            {
+                "steps": 2000043,
+                "file_path": "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-2000043.onnx",
+                "reward": 1.8640000040714557,
+                "creation_time": 1679090358.9723148,
+                "auxillary_file_paths": [
+                    "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-2000043.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000043,
+            "file_path": "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal.onnx",
+            "reward": 1.8640000040714557,
+            "creation_time": 1679090358.9723148,
+            "auxillary_file_paths": [
+                "results\\CorrectMovetoGoal1ObjectRayCast50\\MovetoGoal\\MovetoGoal-2000043.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu116"
+    }
+}

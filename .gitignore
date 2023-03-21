@@ -60,7 +60,7 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
-
+/venv
 # Crashlytics generated file
 crashlytics-build.properties
 
