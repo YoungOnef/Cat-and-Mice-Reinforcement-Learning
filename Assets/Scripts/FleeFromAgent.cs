@@ -16,10 +16,12 @@ public class FleeFromAgent : Agent
     public override void OnEpisodeBegin()
     {
         timer = 0f;
-        //moveToGoalAgent = GetComponent<MoveToGoalAgent>();
-        moveToGoalAgent = GameObject.Find("Agent").GetComponent<MoveToGoalAgent>();
-    }
 
+    }
+    public void SetMoveToGoalAgent(MoveToGoalAgent agent)
+    {
+        moveToGoalAgent = agent;
+    }
 
     public override void OnActionReceived(ActionBuffers actions)
     {

@@ -41,6 +41,7 @@ public class MoveToGoalAgent : Agent
 
 
             GameObject targetInstance = Instantiate(targetPrefab, targetPosition, Quaternion.identity);
+            targetInstance.GetComponent<FleeFromAgent>().SetMoveToGoalAgent(this);
             targets.Add(targetInstance.transform);
         }
 
