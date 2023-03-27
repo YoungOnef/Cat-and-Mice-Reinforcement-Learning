@@ -1,0 +1,47 @@
+{
+    "FleefromAgent": {
+        "checkpoints": [
+            {
+                "steps": 499978,
+                "file_path": "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-499978.onnx",
+                "reward": 124.47698989510536,
+                "creation_time": 1679932098.441018,
+                "auxillary_file_paths": [
+                    "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-499978.pt"
+                ]
+            },
+            {
+                "steps": 999897,
+                "file_path": "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-999897.onnx",
+                "reward": 187.22219225764275,
+                "creation_time": 1679932775.0705688,
+                "auxillary_file_paths": [
+                    "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-999897.pt"
+                ]
+            },
+            {
+                "steps": 1000409,
+                "file_path": "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-1000409.onnx",
+                "reward": 187.22219225764275,
+                "creation_time": 1679932775.2432172,
+                "auxillary_file_paths": [
+                    "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-1000409.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000409,
+            "file_path": "results\\FleefromAgent1\\FleefromAgent.onnx",
+            "reward": 187.22219225764275,
+            "creation_time": 1679932775.2432172,
+            "auxillary_file_paths": [
+                "results\\FleefromAgent1\\FleefromAgent\\FleefromAgent-1000409.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu116"
+    }
+}

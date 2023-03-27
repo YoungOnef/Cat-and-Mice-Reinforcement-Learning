@@ -1,0 +1,47 @@
+{
+    "MovetoGoal": {
+        "checkpoints": [
+            {
+                "steps": 499887,
+                "file_path": "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-499887.onnx",
+                "reward": 1.8519999980926514,
+                "creation_time": 1679934464.0641594,
+                "auxillary_file_paths": [
+                    "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-499887.pt"
+                ]
+            },
+            {
+                "steps": 999988,
+                "file_path": "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-999988.onnx",
+                "reward": 1.920704344044561,
+                "creation_time": 1679935162.2847838,
+                "auxillary_file_paths": [
+                    "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-999988.pt"
+                ]
+            },
+            {
+                "steps": 1000018,
+                "file_path": "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-1000018.onnx",
+                "reward": 1.9227416614691417,
+                "creation_time": 1679935162.4128938,
+                "auxillary_file_paths": [
+                    "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-1000018.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000018,
+            "file_path": "results\\MovetoGoal1\\MovetoGoal.onnx",
+            "reward": 1.9227416614691417,
+            "creation_time": 1679935162.4128938,
+            "auxillary_file_paths": [
+                "results\\MovetoGoal1\\MovetoGoal\\MovetoGoal-1000018.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu116"
+    }
+}

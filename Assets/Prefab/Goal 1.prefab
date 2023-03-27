@@ -141,9 +141,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: b365ff2ec5684fb4ca3486229d49fa48, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: bd1c55013990a6e43b42ea5824c9e056, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_BehaviorType: 2
   m_BehaviorName: FleefromAgent
   TeamId: 0
   m_UseChildSensors: 1

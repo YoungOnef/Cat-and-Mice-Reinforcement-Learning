@@ -678,6 +678,18 @@ PrefabInstance:
       propertyPath: environmentTransform
       value: 
       objectReference: {fileID: 5092332990206426620}
+    - target: {fileID: 805815184901912974, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: TeamId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 805815184901912974, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 012f0a31560c9e5418a2fbd7149a920b, type: 3}
+    - target: {fileID: 805815184901912974, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 805815184901913011, guid: 171f3b75201d4b04d87d846786d3e61a, type: 3}
       propertyPath: m_Name
       value: Agent

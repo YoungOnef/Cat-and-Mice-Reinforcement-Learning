@@ -1,0 +1,71 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu116"
+    },
+    "FleefromAgent": {
+        "elo": 1200.0,
+        "checkpoints": [
+            {
+                "steps": 1001737,
+                "file_path": "results\\Selfplay\\FleefromAgent\\FleefromAgent-1001737.onnx",
+                "reward": null,
+                "creation_time": 1679920123.3798156,
+                "auxillary_file_paths": [
+                    "results\\Selfplay\\FleefromAgent\\FleefromAgent-1001737.pt"
+                ]
+            },
+            {
+                "steps": 1001737,
+                "file_path": "results\\Selfplay\\FleefromAgent\\FleefromAgent-1001737.onnx",
+                "reward": null,
+                "creation_time": 1679920163.628439,
+                "auxillary_file_paths": [
+                    "results\\Selfplay\\FleefromAgent\\FleefromAgent-1001737.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1001737,
+            "file_path": "results\\Selfplay\\FleefromAgent.onnx",
+            "reward": null,
+            "creation_time": 1679920163.628439,
+            "auxillary_file_paths": [
+                "results\\Selfplay\\FleefromAgent\\FleefromAgent-1001737.pt"
+            ]
+        }
+    },
+    "MovetoGoal": {
+        "elo": 1200.0,
+        "checkpoints": [
+            {
+                "steps": 3127437,
+                "file_path": "results\\Selfplay\\MovetoGoal\\MovetoGoal-3127437.onnx",
+                "reward": null,
+                "creation_time": 1679920123.4643898,
+                "auxillary_file_paths": [
+                    "results\\Selfplay\\MovetoGoal\\MovetoGoal-3127437.pt"
+                ]
+            },
+            {
+                "steps": 3127437,
+                "file_path": "results\\Selfplay\\MovetoGoal\\MovetoGoal-3127437.onnx",
+                "reward": null,
+                "creation_time": 1679920163.7155137,
+                "auxillary_file_paths": [
+                    "results\\Selfplay\\MovetoGoal\\MovetoGoal-3127437.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3127437,
+            "file_path": "results\\Selfplay\\MovetoGoal.onnx",
+            "reward": null,
+            "creation_time": 1679920163.7155137,
+            "auxillary_file_paths": [
+                "results\\Selfplay\\MovetoGoal\\MovetoGoal-3127437.pt"
+            ]
+        }
+    }
+}

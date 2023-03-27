@@ -10,7 +10,7 @@ public class MoveToGoalAgent : Agent
 {
     [SerializeField] private GameObject targetPrefab;
     //[SerializeField] 
-    private int numTargets = 1;
+    private int numTargets = 20;
     [SerializeField] private float timePenalty = -0.0001f;
 
     [SerializeField] private float rotationSpeed = 200f;
