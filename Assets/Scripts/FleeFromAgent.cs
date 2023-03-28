@@ -60,7 +60,7 @@ public class FleeFromAgent : Agent
             print("Flee from agent Wall collided");
             SetReward(-1f);
             EndEpisode();
-            moveToGoalAgent.OnEpisodeBegin();
+            //moveToGoalAgent.OnEpisodeBegin();
 
 
         }

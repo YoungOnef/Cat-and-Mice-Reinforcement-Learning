@@ -10,13 +10,18 @@ public class MoveToGoalAgent : Agent
 {
     [SerializeField] private GameObject targetPrefab;
     //[SerializeField] 
-    private int numTargets = 20;
+    private int numTargets = 10;
     [SerializeField] private float timePenalty = -0.0001f;
 
     [SerializeField] private float rotationSpeed = 200f;
     [SerializeField] private float moveSpeed = 5;
-    private List<Transform> targets;
+    public List<Transform> targets;
     public Transform environmentTransform;
+    public void RemoveTarget(Transform target)
+    {
+        targets.Remove(target);
+        Destroy(target.gameObject);
+    }
 
     public override void OnEpisodeBegin()
     {
@@ -74,6 +79,9 @@ public class MoveToGoalAgent : Agent
             SetReward(+0.1f);
             targets.Remove(other.transform);
             Destroy(other.gameObject);
+            //print Goal Destoryed left amount of obejcts
+            //print("Goal Destroyed, " + targets.Count + " targets left");
+
             if (targets.Count == 0)
             {
                 print("Targets collected");
